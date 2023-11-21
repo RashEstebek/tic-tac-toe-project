@@ -1,0 +1,17 @@
+{
+  "name": "problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vitest": "vitest",
+    "test": "vitest run --dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "vitest": "^0.34.6"
+  }
+}

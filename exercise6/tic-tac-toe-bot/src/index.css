@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Hugmate";
+        src: url('/fonts/hugmate-font/Hugmate-BW22x.otf') format('opentype'),
+        url('/fonts/hugmate-font/Hugmate-8Mll0.ttf') format('truetype');
+    }
+}
+
+@layer components {
+    @keyframes progress {
+        from {
+            stroke-dashoffset: 500;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+}
