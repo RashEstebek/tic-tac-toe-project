@@ -2,8 +2,8 @@ import Bot from "./Bot.ts";
 import Round from "./Round.ts";
 
 class MyBot extends Bot {
-  constructor(name: string, avatarUrl: string) {
-    super(name, avatarUrl);
+  constructor() {
+    super("myBot", "/public/drive-main.webp");
   }
 
   doMove(round: Round) {
